@@ -1,3 +1,4 @@
+import BillGenerator from "./components/BillGenerator";
 import QrGenerator from "./components/QrGenerator";
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
           Generate WhatsApp, Instagram, Facebook,
           Google Review and Website QR Codes
         </p>
-
+        <BillGenerator/>
         <QrGenerator />
 
       </div>
